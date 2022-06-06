@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "name": "hz",
+      "data": {
+        "text": "Текстовый блок"
+      }
+    },
+    {
+      "name": "picture",
+      "data": {
+        "url": "https://pryaniky.com/static/img/logo-a-512.png",
+        "text": "Пряники"
+      }
+    },
+    {
+      "name": "selector",
+      "data": {
+        "selectedId": 1,
+        "variants": [
+          {
+            "id": 1,
+            "text": "Вариант раз"
+          },
+          {
+            "id": 2,
+            "text": "Вариант два"
+          },
+          {
+            "id": 3,
+            "text": "Вариант три"
+          }
+        ]
+      }
+    }
+  ],
+  "view": [
+    "hz",
+    "selector",
+    "picture",
+    "hz"
+  ]
+}

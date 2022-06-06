@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    p {
+        margin: 0;
+    }
+    .wrap {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .app {
+        list-style: none;
+        border: cadetblue solid 1px;
+        padding: 0;
+    }
+
+    li {
+        padding: 10px 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    li img {
+        width: 40px;
+
+    }
+
+    li:not(:last-child) {
+        border-bottom: cadetblue solid 1px;
+    }
+    .selectors-block {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .selectors-block .selectors-title {
+        flex-basis: 100%;
+    }
+    .selectors-item {
+        cursor: pointer;
+    }
+    .selectors-title {
+        text-align: center;
+    }
+</style>
+<body>
+
+<div class="wrap">
+    <ul class="app">
+    </ul>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
